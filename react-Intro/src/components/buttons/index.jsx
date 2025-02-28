@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./buttons.module.css";
 
-const Buttons = ({ label, primary }) => {
+const Buttons = ({label, primary }) => {
     // if(type === "primary"){
     //     return(
     //     <button className={styles.btn}>

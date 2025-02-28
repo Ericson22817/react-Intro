@@ -5,6 +5,7 @@
     border: none;
     transition: all .5s;
 }
+
 .btn:hover{
     background-color: var(--button-hover);
 }

@@ -1,0 +1,23 @@
+.box{
+
+    display: flex;
+    background-color: var(--primary-black);
+    justify-content: center;
+}
+.box.reverse{
+    flex-direction: row-reverse;
+    
+}
+.img{
+
+    width: 50rem;
+    height: 36.9 rem;
+}
+.texts{
+    color: var(--text-white);
+    width: 59rem;
+    height: 18rem;
+    top: 10rem;
+    left: 50rem;
+
+}
