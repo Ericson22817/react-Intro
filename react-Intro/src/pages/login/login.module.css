@@ -1,3 +1,7 @@
 .heading{
     color: pink;
 }
+.page{
+    background: url("../../assets/images/heroBg.png") center/cover no-repeat;
+    
+}
