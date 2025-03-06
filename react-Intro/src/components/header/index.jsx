@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from "../../assets/images/logo.png"
 import Buttons from "../buttons"
 import styles from "./header.module.css"
+import {Link} from "react-router-dom"
 
 const Header = () => {
   return (
@@ -15,7 +16,10 @@ const Header = () => {
                 <option value="english">English</option>
                 <option value="chinese">中文</option>
             </select>
-            <Buttons label="Sign In" />
+
+            <Link to="/login">
+              <Buttons label="Sign In" />
+            </Link>
         </div>
 
     </div>

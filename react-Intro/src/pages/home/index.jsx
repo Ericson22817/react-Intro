@@ -6,7 +6,35 @@ import ValuePropCard from "../../components/valueProps";
 import Line from "../../components/line";
 import Faqs from "../../components/FAQs";
 import Footer  from "../../components/footer";
+import Image1 from "../../assets/images/box1-image.png";
+import Image2 from "../../assets/images/strangerBoy.png";
+import Image3 from "../../assets/images/kidImage.png";
+import Dropdown from "../../components/dropdown";
+import Footer from "../../components/footer";
+import { faqs } from "./data";
 
+// const faqs = [
+//   {
+//     query: "E mi lokan",
+//     response: "hmmmm, Obi???"
+//   },
+//   {
+//     query: "Who be human being?",
+//     response: "Commot me from human being"
+//   },
+//   {
+//     query: "What is Netflix?",
+//     response: "talk to youur papa"
+//   },
+//   {
+//     query: "What is Netflix?",
+//     response: "talk to youur papa"
+//   },
+//   {
+//     query: "What is Netflix?",
+//     response: "talk to youur papa"
+//   }
+// ]
 
 function Home() {
   return (
@@ -27,55 +55,49 @@ function Home() {
           <ValuePropCard
             heading="Enjoy on your TV"
             description="Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more."
+            imgUrl={Image1}
           />
           <Line/>
           <ValuePropCard
             heading="Download your shows to watch offline"
             description="Save your favorites easily and always have something to watch."
             reverse
+            imgUrl={Image2}
           />
           <Line/>
           <ValuePropCard
             heading="Watch everywhere"
             description="Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more."
+            imgUrl={Image1}
           />
           <Line/>
           <ValuePropCard
             heading="Create profile for your kids"
             description="Send kids on adventures with their favorite characters in a space made just for them—free with your membership."
             reverse
+            imgUrl={Image3}
           />
         </section>
 
         <section className={styles.faqsection}>
-
-        <h2 className={styles.qs}>Frequently Asked Question</h2>
-
-    
-          <Faqs Faq="what is Netflix?"/>
-          <Faqs Faq="How much does Netflix cost?"/>
-          <Faqs Faq="where can i watch?"/>
-          <Faqs Faq="How do i cancel?"/>
-          <Faqs Faq="What can i watch on Netflix?"/>
-          <Faqs Faq="Is Netflix good for kids?"/>
-
-
+<<
         <div className={styles.input}>
-        <InputComponent/>
-          </div>  
-
-          
-          
-
-          
-
+          <InputComponent/>
+         </div>  
         </section>
         <line/>
-      
-      <footer className={styles.foot}>
-        <Footer/>
+          
+          <h1>Frequently Asked Questions</h1>
 
-      </footer>
+          {faqs.map((questions, index) => (
+            <Dropdown query={questions.query} key={index}/>
+          ))}
+        </section>
+
+        <div className={styles.input}>
+          <InputComponent />
+      
+        <Footer/>
       </div>
     </>
   );

@@ -57,3 +57,18 @@ align-items: center;
  .input{
    margin-top: 5.2rem; 
  }
+=======
+
+.faqsection{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+section > h1{
+
+    font-size: 2.6rem;
+    padding-bottom: 3rem;
+}
