@@ -1,9 +1,19 @@
-import login from './login.module.css'
+import LoginForm from "../../components/loginform"
+import styles from './login.module.css'
 
 const Login = () => {
   return (
     <>
-        <h1 className="heading"> This is the Login Page</h1>
+
+    <div className={styles.page}> 
+
+
+    < LoginForm/>
+
+
+
+    </div>
+
     </>
   )
 }

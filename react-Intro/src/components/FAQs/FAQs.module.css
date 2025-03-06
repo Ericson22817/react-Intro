@@ -1,0 +1,21 @@
+.faq{
+    width: 81.5rem;
+    height: 7.5rem;
+    background-color: var(--grey-bg);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* gap: .9rem; */
+    margin-bottom: .9rem;
+    padding-left: 3.1rem;
+    /* margin-left: 50.7rem;
+    margin-right: 50.8 rem; */
+
+}
+
+/* .fq{
+display: flex;
+background-color: var(--primary-black);
+width: 500rem;
+height: 50rem;
+} */

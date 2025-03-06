@@ -1,0 +1,45 @@
+.foot{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    gap: 11.9rem;
+    justify-items: center;
+    color: #757575;
+    font-size: 1.3rem;
+    /* margin-bottom: 1.5rem; */
+    /* line-height: 1.6rem; */
+}
+
+.foot > div > p{
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+
+.select{
+    width: 100%;
+    padding: 3.5rem 0 0 0;
+    margin-left: 38.95rem;
+    color: #757575;
+
+    /* height: 5.3rem; */
+}
+
+.call{
+    margin: 7.8rem 0 3rem 0;
+    padding-left: 38.95rem;
+    font-size: 1.6rem;
+    color: #757575;
+    
+
+}
+
+.last{
+    font-size: 1.3rem;
+    margin-left: 38.95rem;
+    color: #757575;
+    margin-top: 2.4rem;
+    padding-bottom: 3.3rem;
+
+
+}

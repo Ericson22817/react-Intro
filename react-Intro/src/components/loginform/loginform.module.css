@@ -1,0 +1,172 @@
+.logoCtn{
+    width: 16.7rem;
+    margin: 2.4rem 5.6rem;
+    z-index: 5;
+}
+
+.formdiv{
+
+ display: flex; 
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+form > div{
+    width: 31.4rem;
+    height: 5rem;
+    background-color: var(--grey-bg);
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+form > div:nth-of-type(2){
+    margin-bottom: 4.2rem;
+}
+
+form h3{
+    display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    padding-bottom: 2.6rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: 0; 
+    
+}
+
+/* form > edit{
+    width: 31.4rem;
+    height: 4.8rem;
+    border-radius: .4rem;
+} */
+
+
+form > p{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4.6rem;
+    color: #B3B3B3;
+}
+
+form > input{
+ justify-content: left;  
+ color: var(--grey-bg);
+ /* width: 50rem;  */
+}
+
+form >div > input{
+    background-color: var(--grey-bg);
+    font-size: 1.6rem;
+    border: none;
+    color: #8C8C8C;
+    padding-left: 2rem;
+    /* align-items: left;
+    justify-content: left; */
+}
+
+
+.formCtn{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    height: 66rem;
+    background-color: var(--primary-black);
+    align-items: center;
+    justify-content: center;
+}
+
+.formCtn > div > p:nth-of-type(1){
+
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #8C8C8C;
+    margin-left: 0;
+
+}
+
+.formCtn > div > p:nth-of-type(2){
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #8C8C8C;
+    margin-left: 0;
+
+}
+
+.formCtn > div > p:nth-of-type(3){
+
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #8C8C8C;
+    margin-left: 0;
+
+}
+
+
+.formCtn > div:nth-of-type(1){
+    width: 80%;
+    padding: 1.4rem 1.4rem 0;
+    margin-left: 1.4rem;
+}
+
+
+.formCtn > div:nth-of-type(2){
+    width: 80%;
+    padding: 1.4rem 1.4rem;
+    margin-left: 1.4rem;
+}
+
+.formCtn > div:nth-of-type(3){
+    width: 72%;
+
+}
+
+.formCtn > div > p > span{
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--text-white);
+}
+
+.formCtn > p{
+    padding: 0;
+    text-align: left;
+    justify-content: left;
+}
+
+.secondaryBtn{
+    width: 31.4rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    color: var(--text-white);
+    border: none;
+  background-color: var(--primary-red);
+  border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+    transition: all .5s;
+}
+
+.foot{
+    display: flex;
+    gap: 13.6rem;
+    width: 192rem;
+    height: 25.8rem;
+    background-color: var(--primary-black);
+    background: transparent;
+}
+
+.foot > div > p{
+font-size: 1.3rem;
+padding-bottom: 1.4rem;
+}
